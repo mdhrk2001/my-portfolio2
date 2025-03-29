@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { htmlProjects } from "../../../data/projectData";
-import { SiHtml5, SiCss3 } from "react-icons/si";  // Import Simple Icons
+import { SiHtml5, SiCss3 } from "react-icons/si";
 
 export default function HTMLProjects() {
     return (
@@ -47,7 +47,7 @@ export default function HTMLProjects() {
         >
           <div className="flex items-center justify-between">
             <h3 className="text-lg sm:text-xl font-bold text-black dark:text-white">{title}</h3>
-            <div className="flex space-x-2 bg-white dark:bg-gray-900 border-2 rounded-md border-black dark:border-gray-200 p-1">{renderTechIcons()}</div> {/* Display tech icons */}
+            <div className="flex space-x-2 bg-white dark:bg-gray-900 border-2 rounded-md border-black dark:border-gray-200 p-1">{renderTechIcons()}</div>
           </div>
           <p className="text-gray-900 dark:text-gray-400 mt-2 text-sm sm:text-base text-justify">{description}</p>
         </a>
